@@ -39,9 +39,9 @@ const AnnouncementPopup: React.FC = () => {
           <div className="popup-section  ">
             <div className="imgAnnounce"></div>
             <div className="icon-header">
-              <h2 className="cta-title">E-Transfer Reminder</h2>
+              <h2 className="cta-titlex">E-Transfer Reminder</h2>
             </div>
-            <p className="cta-subtitle">
+            <p className="cta-subtitlex">
               All e-transfer payments must now be sent to{" "}
               <strong>finance@encoreauctions.ca</strong>.
             </p>
