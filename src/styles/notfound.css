@@ -1,0 +1,29 @@
+.not-found {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: var(--color-secondary);
+  text-align: center;
+}
+
+.not-found h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.not-found p {
+  font-size: 1.25rem;
+  color: var(--color-fg-muted);
+  margin-bottom: 16px;
+}
+
+.not-found a {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+
+.not-found a:hover {
+  opacity: 0.8;
+}

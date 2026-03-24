@@ -1,0 +1,135 @@
+.hero {
+  position: relative;
+  overflow: hidden;
+  padding: 112px 0 64px;
+  border-radius: 0 0 3rem 3rem;
+  background-color: #fff;
+}
+
+
+@media (min-width: 640px) {
+  .hero {
+    padding: 144px 0 96px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero {
+    padding: 176px 0 128px;
+  }
+}
+
+.hero-grid {
+  display: grid;
+  gap: 48px;
+  align-items: center;
+  min-height: 600px;
+}
+
+@media (min-width: 1024px) {
+  .hero-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 64px;
+  }
+}
+
+.hero-content {
+  max-width: 540px;
+}
+
+.hero-headline {
+  margin-top: 24px;
+  font-size: clamp(2.25rem, 5vw, 3.5rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.08;
+}
+
+.hero-subtitle {
+  margin-top: 20px;
+  max-width: 420px;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--color-fg-muted);
+}
+
+.hero-buttons {
+  margin-top: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+/* Social proof */
+.hero-social {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.hero-avatars {
+  display: flex;
+}
+
+.hero-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 2px solid var(--color-bg);
+  background: var(--color-secondary);
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--color-fg-muted);
+  margin-left: -8px;
+}
+
+.hero-avatar:first-child {
+  margin-left: 0;
+}
+
+.hero-social-text {
+  font-size: 0.875rem;
+  color: var(--color-fg-muted);
+}
+
+.hero-social-text strong {
+  color: var(--color-fg);
+  font-weight: 600;
+}
+
+/* Masonry image grid */
+.hero-masonry {
+  position: relative;
+  width: 100%;
+  max-width: 370px;
+}
+
+.hero-image-cell {
+  border-radius: 16px;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 639px) {
+  .hero {
+    border-radius: 0 0 2rem 2rem;
+
+  }
+
+  .hero .br-desktop {
+    display: none;
+  }
+
+  .hero-masonry {
+    max-height: 360px;
+    margin-bottom: 100px;
+  }
+
+  .hero-image-cell {
+    border-radius: 12px;
+  }
+}
