@@ -9,7 +9,6 @@
     inset 0 1px 0 rgba(255, 255, 255, 0),
     inset 0 -1px 0 rgba(255, 255, 255, 0.1),
     inset 0 0 0px 0px rgba(255, 255, 255, 0);
-  position: relative;
   overflow: visible;
 }
 
@@ -177,4 +176,11 @@
 .bidcardBtn:hover {
   opacity: 1;
   background-color: rgb(44, 44, 44);
+}
+
+
+@media (max-width: 640px) {
+  .auction-card-image {
+    height: 450px;
+  }
 }

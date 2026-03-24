@@ -50,7 +50,7 @@ const Navbar = () => {
   return (
     <motion.header
       className="navbar"
-      animate={{ y: hidden ? -80 : 0 }}
+      animate={{ y: hidden ? -90 : 0 }}
       transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
     >
       <nav className="section-container navbar-inner">

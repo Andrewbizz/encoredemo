@@ -8,6 +8,7 @@ import HowItWorks from "@/components/HowItWorks";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
 import "@/styles/index.css";
+import AnnouncementPopup from "@/components/AnnouncmentPopup";
 
 const Index = () => {
   return (
@@ -24,6 +25,8 @@ const Index = () => {
         <CTASection />
       </main>
       <Footer />
+
+      <AnnouncementPopup />
     </div>
   );
 };
