@@ -136,8 +136,8 @@ const HeroSection = () => {
                 ease: [0.16, 1, 0.3, 1],
               }}
             >
-              Bid Smart. <br className="br-desktop" />
-              Win <span className="accent-dot">Big</span>.
+              Mew Auctions <br className="br-desktop" />
+              Every <span className="accent-dot">Week</span>.
             </motion.h1>
 
             <motion.p
@@ -165,12 +165,10 @@ const HeroSection = () => {
               }}
             >
               <button className="btn btn-primary btn-xl">
-                Start Bidding
+                Browse Auctions
                 <ArrowRight size={16} />
               </button>
-              <button className="btn btn-outline btn-xl">
-                Browse Auctions
-              </button>
+              <button className="btn btn-outline btn-xl">How It Work</button>
             </motion.div>
 
             <motion.div

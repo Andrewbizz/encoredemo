@@ -101,7 +101,7 @@ const FeaturedAuctions = () => {
           <div className="auctions-header">
             <span className="pill">// Featured //</span>
             <h2 className="auctions-title">
-              Trending Auctions<span className="accent-dot">.</span>
+              Hot Items<span className="accent-dot">.</span>
             </h2>
             <p className="auctions-subtitle">
               Don't miss out on these hot items. Place your bid before time runs
