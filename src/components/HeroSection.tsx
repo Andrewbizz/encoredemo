@@ -136,7 +136,7 @@ const HeroSection = () => {
                 ease: [0.16, 1, 0.3, 1],
               }}
             >
-              Mew Auctions <br className="br-desktop" />
+              New Auctions <br className="br-desktop" />
               Every <span className="accent-dot">Week</span>.
             </motion.h1>
 
