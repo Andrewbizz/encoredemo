@@ -151,7 +151,7 @@ const HeroSection = () => {
               }}
             >
               Discover unbeatable deals on premium items. Canada's most trusted
-              auction platform — from luxury goods to everyday essentials.
+              auction platform from luxury goods to everyday essentials.
             </motion.p>
 
             <motion.div
@@ -171,7 +171,20 @@ const HeroSection = () => {
               <button className="btn btn-outline btn-xl">How It Work</button>
             </motion.div>
 
-            <motion.div
+            {/* <motion.div
+              className="hero-buttons"
+              initial={{ opacity: 0, y: 20, filter: "blur(4px)" }}
+              animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+              transition={{
+                duration: 0.7,
+                delay: 0.3,
+                ease: [0.16, 1, 0.3, 1],
+              }}
+            >
+              Live Auctions ending today
+            </motion.div> */}
+
+            {/* <motion.div
               className="hero-social"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -186,6 +199,17 @@ const HeroSection = () => {
               </div>
               <div className="hero-social-text">
                 <strong>12,400+</strong> trusted bidders across Canada
+              </div>
+            </motion.div> */}
+
+            <motion.div
+              className="hero-social"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.6, delay: 0.5 }}
+            >
+              <div className="hero-social-text" style={{ paddingLeft: 24 }}>
+                {/* <strong>12,400+</strong> */}Live auctions ending today 🔥
               </div>
             </motion.div>
           </div>
