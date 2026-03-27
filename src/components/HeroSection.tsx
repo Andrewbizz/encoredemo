@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 import heroImg1 from "@/assets/hero-grid-1.jpg";
 import heroImg2 from "@/assets/hero-grid-2.jpg";
 import heroImg3 from "@/assets/hero-grid-3.jpg";
-import heroImg4 from "@/assets/hero-grid-3.jpg";
+import heroImg4 from "@/assets/hero-grid-4.jpg";
 import "@/styles/hero.css";
 import "@/styles/button.css";
 
